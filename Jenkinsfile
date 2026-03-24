@@ -54,7 +54,7 @@ pipeline {
                             -e PUID=${PUID} \
                             -e PGID=${PGID} \
                             -e TZ=${TZ} \
-                            -v ${CONFIG_PATH}:/config \
+                            -v ${CONFIG_PATH}:/app/config \
                             -v /mnt/Media:/Media \
                             -v /mnt/Media/Downloads:/downloads \
                             -v /mnt/Media/TVShows:/TVShows \
@@ -81,7 +81,7 @@ pipeline {
                             -e PUID=${PUID} \
                             -e PGID=${PGID} \
                             -e TZ=${TZ} \
-                            -v ${CONFIG_PATH}:/config \
+                            -v ${CONFIG_PATH}:/app/config \
                             -v /mnt/Media:/Media \
                             -v /mnt/Media/Downloads:/downloads \
                             -v /mnt/Media/TVShows:/TVShows \
